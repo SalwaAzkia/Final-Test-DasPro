@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+import controller.LaundryShop;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        LaundryShop laundryShop = new LaundryShop();
+
+        laundryShop.generateBill(scan);
+
+        scan.close();
+    }
+}
